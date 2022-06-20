@@ -1,9 +1,3 @@
-# shell
-脚本收集仓库
-
-## batch
-- Http Files Server (CMD + Python) 
-```
 @echo off
 
 title Http Files Server
@@ -21,5 +15,4 @@ if defined PROT (
 
 python -m http.server !PROT!
 
-pause 
-```
+pause
